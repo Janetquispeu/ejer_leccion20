@@ -1,10 +1,8 @@
-var num2=0;
 function suma(num1) {
-	return function() {
+	return function(num2) {
 		return num1 + num2;
 	}
 } 
-
 var suma2 = suma(2);
 console.log(suma2(5)); // Debería mostrar 7 de resultado
 
